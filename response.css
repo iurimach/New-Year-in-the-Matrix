@@ -1,0 +1,19 @@
+
+@media (max-width: 450px) {
+    
+   
+    .section1{
+        color: rgb(185, 223, 17);
+    }
+    .matrix-text{
+        font-size: 13px
+    }
+    .greenbt,.redbt{
+        width: 100px;
+        height: 40px;
+        font-size: 14px;
+    }
+    .img_gif{ 
+        width: 98%;
+    }
+  }
