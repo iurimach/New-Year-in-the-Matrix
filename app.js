@@ -43,19 +43,13 @@
     audio2.play();
   }
 
-  function playAudio2() {
-    var audio = new Audio('asest/musik2.mp3'); // Replace with the path to your music file
-    audio.play();
-  }
-
-  function startDelayedMusic() {
-    setTimeout(playAudio2, 6000); // Delayed start after 6 seconds (5000 milliseconds)
-  }
-
-  //დაyოვნების ფუქნციებს ვწერ აქ 
   
-    
-    
+ //დაyოვნების ფუქნციებს ვწერ აქ 
+  function startDelayedMusic() {
+    setTimeout(playAudio2, 6000); // Delayed start after 6 seconds 
+  }
+
+
   
   setTimeout(() => {
     document.getElementById('buttons').style.display = 'flex';
